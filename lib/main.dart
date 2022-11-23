@@ -91,7 +91,7 @@ class _MyHomePageState extends State<MyHomePage> {
           Padding(
             padding: const EdgeInsets.all(16),
             child: TextField(
-              style: const TextStyle(fontSize: 30),
+              style: const TextStyle(fontSize: 28),
               controller: myController,
             ),
           ),
