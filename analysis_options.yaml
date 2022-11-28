@@ -9,7 +9,7 @@
 # packages, and plugins designed to encourage good coding practices.
 #include: package:flutter_lints/flutter.yaml
 
-very_good_analysis: ^3.1.0
+
 include: package:very_good_analysis/analysis_options.yaml
 
 
@@ -26,19 +26,19 @@ linter:
   # `// ignore_for_file: name_of_lint` syntax on the line or in the file
   # producing the lint.
   rules:
-      always_put_control_body_on_new_line: true
-      always_specify_types: true
-      avoid_implementing_value_types: true
-      depend_on_referenced_packages: true
-      lines_longer_than_80_chars: false
-      omit_local_variable_types: false
-      prefer_foreach: true
-      public_member_api_docs: false
-      unnecessary_constructor_name: true
-      unsafe_html: true
-      use_test_throws_matchers: true
-      unnecessary_lambdas: false
-      no_default_cases: false
+    always_put_control_body_on_new_line: true
+    always_specify_types: true
+    avoid_implementing_value_types: true
+    depend_on_referenced_packages: true
+    lines_longer_than_80_chars: false
+    omit_local_variable_types: false
+    prefer_foreach: true
+    public_member_api_docs: false
+    unnecessary_constructor_name: true
+    unsafe_html: true
+    use_test_throws_matchers: true
+    unnecessary_lambdas: false
+    no_default_cases: false
     # avoid_print: false  # Uncomment to disable the `avoid_print` rule
     # prefer_single_quotes: true  # Uncomment to enable the `prefer_single_quotes` rule
 
